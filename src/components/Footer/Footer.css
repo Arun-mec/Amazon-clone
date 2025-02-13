@@ -1,0 +1,41 @@
+.footer-back-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #2d3e52;
+}
+.footer-back-button:hover {
+  background-color: #39506a;
+  cursor: pointer;
+}
+.footer-back-button span {
+  font-size: small;
+  font-weight: 500;
+  padding: 1rem 0rem;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #232F3E;
+}
+.footer-div hr {
+  border: none;
+  height: 1px;
+  color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.footer-div .footer-div-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-div .footer-div-top .footer-div-top-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}/*# sourceMappingURL=Footer.css.map */

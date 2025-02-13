@@ -1,0 +1,34 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+    // width: 20%;
+    max-height: 350px;
+    .product-card-title{
+        p{
+            margin-top: 0.5rem;
+            font-size: larger;
+            font-weight: 600;
+        }
+    }
+    .product-card-content{
+        img{
+            height: 12.5rem;
+            object-fit: cover;
+        }
+    }
+    .product-card-link{
+        a{
+            color: rgb(53, 133, 167);
+            text-decoration: none;
+            &:hover{
+                color: #FF9900;
+                text-decoration: underline;
+            }
+        }
+    }
+}

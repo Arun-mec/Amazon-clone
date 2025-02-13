@@ -1,0 +1,50 @@
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background: gray;
+}
+
+.carousal-left-indicator {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  background: none;
+  z-index: 1;
+  height: 50%;
+  border: 0.3px solid transparent;
+}
+.carousal-left-indicator:hover {
+  border-style: double;
+  border: 0.2px solid black;
+  outline: 0.1px solid white;
+  outline-offset: 0px;
+}
+
+.carousal-right-indicator {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  background: none;
+  border: none;
+  z-index: 1;
+  height: 50%;
+  border: 0.3px solid transparent;
+}
+.carousal-right-indicator:hover {
+  border-style: double;
+  border: 0.2px solid black;
+  outline: 0.1px solid white;
+  outline-offset: 0px;
+}/*# sourceMappingURL=Carousel.css.map */
